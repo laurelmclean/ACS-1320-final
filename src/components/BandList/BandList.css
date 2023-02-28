@@ -1,0 +1,21 @@
+.BandList {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2em;
+	max-width: 1200px;
+	margin: auto;
+	padding: 2em;
+	font-size: 20px;
+}
+
+.BandSearch form input {
+	border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+}
+
+.Band {
+    border: white;
+    border-style: solid;
+}
+
